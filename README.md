@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Readme
 
 My solutions to Leetcode problems. Each branch is for
