@@ -28,7 +28,7 @@ public:
             for(int j=i; j<=end_index && j<S.size(); j++) {
                 end_index = max(end_index, last_pos[ S[j] ]);
             }
-            result.push_back( end_index-i+1 );
+            result.push_back( end_index-start_index+1 );
             i = end_index;
         }
         
